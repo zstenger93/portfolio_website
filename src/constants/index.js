@@ -141,7 +141,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "September 2022",
     points: [
-      "An attempt to recreate the original printf in a simplified version.",
+      "An attempt to recreate the original printf in a simplified version with a range of options available.",
     ],
   },
   {
