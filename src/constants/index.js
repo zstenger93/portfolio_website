@@ -114,28 +114,29 @@ const technologies = [
 const experiences = [
   {
     title: "libft",
-    language: "C",
+    language: "Languages: C",
     icon: fortytwologo,
     iconBg: "#E6DEDD",
     date: "October 2022",
     points: [
       "Created my first basic C library with various recreated standard functions",
-      "what we expanded later on with extra functions needed by other projects.",
+      "Later on I expanded it with extra functions needed by other projects.",
+      "I learned about memory menagement, manipulating strings, lists and so on.",
     ],
   },
   {
     title: "get_next_line",
-    language: "C",
+    language: "Languages: C",
     icon: fortytwologo,
     iconBg: "#E6DEDD",
     date: "September 2022",
     points: [
-      "A simple function for reading a file line by line, and returning the lines.",
+      "A simple function for reading a file line by line in a while loop which returns each line until it reaches the end of file.",
     ],
   },
   {
     title: "ft_printf",
-    language: "C",
+    language: "Languages: C",
     icon: fortytwologo,
     iconBg: "#E6DEDD",
     date: "September 2022",
@@ -145,7 +146,7 @@ const experiences = [
   },
   {
     title: "Born2beroot",
-    language: "Virtual Machine",
+    language: "Languages: Virtual Machine",
     icon: fortytwologo,
     iconBg: "#E6DEDD",
     date: "November 2022",
@@ -156,7 +157,7 @@ const experiences = [
   },
   {
     title: "so_long",
-    language: "C",
+    language: "Languages: C",
     icon: fortytwologo,
     iconBg: "#E6DEDD",
     date: "December 2022",
@@ -169,7 +170,7 @@ const experiences = [
   },
   {
     title: "push_swap",
-    language: "C",
+    language: "Languages: C",
     icon: fortytwologo,
     iconBg: "#E6DEDD",
     date: "January 2023",
@@ -180,7 +181,7 @@ const experiences = [
   },
   {
     title: "pipex",
-    language: "C",
+    language: "Languages: C",
     icon: fortytwologo,
     iconBg: "#E6DEDD",
     date: "February 2023",
@@ -190,7 +191,7 @@ const experiences = [
   },
   {
     title: "minishell",
-    language: "C",
+    language: "Languages: C",
     icon: fortytwologo,
     iconBg: "#E6DEDD",
     date: "March 2023",
@@ -201,7 +202,7 @@ const experiences = [
   },
   {
     title: "philosophers",
-    language: "C",
+    language: "Languages: C",
     icon: fortytwologo,
     iconBg: "#E6DEDD",
     date: "May 2023",
@@ -211,7 +212,7 @@ const experiences = [
   },
   {
     title: "cub3D",
-    language: "C",
+    language: "Languages: C",
     icon: fortytwologo,
     iconBg: "#E6DEDD",
     date: "May 2023",
@@ -221,7 +222,7 @@ const experiences = [
   },
   {
     title: "CPP modules 0-4",
-    language: "C++",
+    language: "Languages: C++",
     icon: fortytwologo,
     iconBg: "#E6DEDD",
     date: "June 2023",
@@ -231,7 +232,7 @@ const experiences = [
   },
   {
     title: "netpractice",
-    language: "Web",
+    language: "Languages: Web",
     icon: fortytwologo,
     iconBg: "#E6DEDD",
     date: "June 2023",
@@ -242,18 +243,17 @@ const experiences = [
   },
   {
     title: "ft_irc",
-    language: "C++",
+    language: "Languages: C++",
     icon: fortytwologo,
     iconBg: "#E6DEDD",
     date: "July 2023",
     points: [
-      "In this project we worked as three, and we wrote a server with a bot",
-      "for an existing IRC client.",
+      "In this project we worked as three, and we wrote a server with a bot for an existing IRC client.",
     ],
   },
   {
     title: "CPP modules 5-9",
-    language: "C++",
+    language: "Languages: C++",
     icon: fortytwologo,
     iconBg: "#E6DEDD",
     date: "In progress",
@@ -263,7 +263,7 @@ const experiences = [
   },
   {
     title: "inception",
-    language: "Docker",
+    language: "Languages: Docker",
     icon: fortytwologo,
     iconBg: "#E6DEDD",
     date: "In progress",
@@ -273,7 +273,7 @@ const experiences = [
   },
   {
     title: "transendence",
-    language: "Not decided",
+    language: "Languages: Not decided",
     icon: fortytwologo,
     iconBg: "#E6DEDD",
     date: "In progress",
