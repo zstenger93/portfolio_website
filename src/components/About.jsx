@@ -43,7 +43,7 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         I have experience with C, C++, Git, WordPress, Docker, CSS, HTML, ShellScript and MarkDown.
-        Experimenting with JavaScript, React and Tailwindcss.
+        Experimenting with JavaScript, React, Three JS and Tailwindcss.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

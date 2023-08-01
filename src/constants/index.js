@@ -1,19 +1,24 @@
 import {
+  c,
+  wp,
+  cpp,
+  shellscript,
+  hungary,
+  japan,
+  photographer,
+  woodworker,
+  germany,
   mobile,
   backend,
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
-  figma,
   docker,
   fortytwologo,
   carrent,
@@ -58,6 +63,22 @@ const services = [
 
 const technologies = [
   {
+    name: "C",
+    icon: c,
+  },
+  {
+    name: "C++",
+    icon: cpp,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "docker",
+    icon: docker,
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -66,20 +87,20 @@ const technologies = [
     icon: css,
   },
   {
+    name: "ShellScript",
+    icon: shellscript,
+  },
+  {
+    name: "WordPress",
+    icon: wp,
+  },
+  {
     name: "JavaScript",
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -90,28 +111,134 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
     name: "Three JS",
     icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
 const experiences = [
+  {
+    title: "I was born",
+    language: "Languages: Hungarian",
+    icon: hungary,
+    iconBg: "#E6DEDD",
+    date: "14 August 1993",
+    points: [
+      "Probably I should have skipped this information, now T-800 Terminator will know where to go.",
+      "Anyway...",
+    ],
+  },
+  {
+    title: "First profession",
+    language: "skill: Cabinetmaker",
+    icon: hungary,
+    iconBg: "#E6DEDD",
+    date: "September 2008 - June 2012",
+    points: [
+      "In this four year period I learned and mastered every sides of woodworking from marquetry, crafting unique and old style to modern furnitures.",
+      "Achieved the a 3rd places on a national competition.",
+      "Learned and mastered the importance of precise and quality work.",
+    ],
+  },
+  {
+    title: "Second profession",
+    language: "skill: Buildingcarpenter",
+    icon: hungary,
+    iconBg: "#E6DEDD",
+    date: "September 2012 - June 2013",
+    points: [
+      "During this year I mastered the craft of crafting unique and common type of doors, windows and different structual elements.",
+    ],
+  },
+  {
+    title: "Highschool",
+    language: "skill: English",
+    icon: hungary,
+    iconBg: "#E6DEDD",
+    date: "September 2013 - June 2015",
+    points: [
+      "Learned English on conversational level.",
+      "The school was high, but I'm definetely not during this time.",
+    ],
+  },
+  {
+    title: "Woodworker/Cabinetmaker",
+    language: "skill: Customer service, Fine Woodworking",
+    icon: woodworker,
+    iconBg: "#E6DEDD",
+    date: "September 2015 - June 2020",
+    points: [
+      "Worked at three different companies during this period filling in different positions.",
+      "At one of the companies I was working with normal wood mostly crafting unique stairs, doors and windows.",
+      "The other two company introduced me to working with furniture panels and building all kinds of furniture, but mostly kitchens."
+    ],
+  },
+  {
+    title: "Living in Japan",
+    language: "skill: Photography, English, Japanese",
+    icon: japan,
+    iconBg: "#E6DEDD",
+    date: "February 2020 - September 2021",
+    points: [
+      "I applied for a working holiday visa and moved to Japan for more than 1,5 years.",
+      "During this period I exploread lots of cities and mountains all around the country.",
+      "I was doing photography almost every day, especially streetphotography which in Tokyo became my new favorite type of phorography.",
+    ],
+  },
+  {
+    title: "English teacher",
+    language: "skill: English, Japanese",
+    icon: japan,
+    iconBg: "#E6DEDD",
+    date: "June 2020 - September 2020",
+    points: [
+      "I was teaching English in a small local cafe on the countryside.",
+      "Our customers ranged from really young to all the way 80+ years old.",
+      "It was a really interesting experience.",
+    ],
+  },
+  {
+    title: "Recepcionist",
+    language: "skill: English, Japanese",
+    icon: japan,
+    iconBg: "#E6DEDD",
+    date: "February 2020 - September 2021",
+    points: [
+      "I was a recepcionist in different resorts and hostels.",
+      "I worked in Hiroshima, Kyoto, Osaka, and Kumakogen.",
+      "I learned a lot about hospitality.",
+    ],
+  },
+  {
+    title: "Photographer",
+    language: "skill: Photography, Photoshop, Lightroom",
+    icon: photographer,
+    iconBg: "#E6DEDD",
+    date: "February 2018 - present",
+    points: [
+      "Always loved to take photographs which a few years ago became my favorite hobby and since then whereever I go, the camera is the first thing I put in my backpack.",
+      "Learned about composition, patience, creativity and that everything can't be perfect.",
+      "I enjoy almost all styles of photography but mostly street, cityscape, abstract and nature.",
+    ],
+  },
+  {
+    title: "Self employed woodworker",
+    language: "skill: Woodworking, Project Managment, Customer Service, Design",
+    icon: woodworker,
+    iconBg: "#E6DEDD",
+    date: "September 2021 - October 2022",
+    points: [
+      "Worked in my own workshop for clients on various projects."
+    ],
+  },
+  {
+    title: "Moved to Germany",
+    language: "skill: Computer Science",
+    icon: germany,
+    iconBg: "#E6DEDD",
+    date: "October 2022",
+    points: [],
+  },
   {
     title: "libft",
     language: "Languages/Tools: C",
@@ -281,7 +408,8 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "In progress",
     points: [
-      "This project introduced me ",
+      "This project introduced me how docker and docker containers work.",
+      "How to deploy faster, easier different services and systems with docker.",
     ],
   },
   {
@@ -291,7 +419,20 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "In progress",
     points: [
-      "This project introduced us to ",
+      "Here we have to write both back and frontend for a website.",
+      "Implement a playable, multiplayer pong game.",
+      "Chat and scoreboard.",
+      "Authentication service.",
+    ],
+  },
+  {
+    title: "internship",
+    language: "Languages/Tools: unknown",
+    icon: fortytwologo,
+    iconBg: "#E6DEDD",
+    date: "soon",
+    points: [
+      "The project I was working on:",
     ],
   },
 ];
