@@ -38,6 +38,10 @@ export const navLinks = [
     title: "Github"
   },
   {
+    id: "linkedin",
+    title: "Linkedin"
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -395,7 +399,7 @@ const experiences = [
     language: "Languages/Tools: C++",
     icon: fortytwologo,
     iconBg: "#E6DEDD",
-    date: "In progress",
+    date: "August 2023",
     points: [
       "I learned some of the basics of C++ like ",
       "Try/catch blocks and exceptions.",

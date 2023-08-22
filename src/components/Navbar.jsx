@@ -14,6 +14,11 @@ const Navbar = () => {
     } else {
       setActive(title);
     }
+    if (id == 'linkedin') {
+      window.open('https://www.linkedin.com/in/zstenger/', '_blank');
+    } else {
+      setActive(title);
+    }
   };
 
   return (

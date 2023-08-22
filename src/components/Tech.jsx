@@ -13,7 +13,7 @@ const Tech = () => {
         <p className={`${styles.sectionSubText} text-center`}
         >Languages and Tools I use</p>
         <h2 className={`${styles.sectionHeadText} text-center`}
-        >Kidding, I just watch programming memes</h2>
+        > <br /> </h2>
       </motion.div>
       <div className="flex flex-row flex-wrap justify-center gap-10">
         {technologies.map((technology) => (
