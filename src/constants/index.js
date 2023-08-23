@@ -167,7 +167,7 @@ const experiences = [
     ],
   },
   {
-    title: "Woodworker/Cabinetmaker",
+    title: "Cabinetmaker / Buildingcarpenter",
     language: "skill: Customer service, Fine Woodworking",
     icon: woodworker,
     iconBg: "#E6DEDD",
