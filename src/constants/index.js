@@ -7,6 +7,7 @@ import {
   git,
   html,
   japan,
+  python,
   nodejs,
   docker,
   threejs,
@@ -91,13 +92,17 @@ const technologies = [
     name: "CSS 3",
     icon: css,
   },
-  {
-    name: "ShellScript",
-    icon: shellscript,
-  },
+  // {
+  //   name: "ShellScript",
+  //   icon: shellscript,
+  // },
   {
     name: "WordPress",
     icon: wp,
+  },
+  {
+    name: "Python",
+    icon: python,
   },
   {
     name: "JavaScript",

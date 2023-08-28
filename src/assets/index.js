@@ -14,6 +14,7 @@ import cpp from "./tech/c++.png";
 import git from "./tech/git.png";
 import css from "./tech/css.png";
 import html from "./tech/html.png";
+import python from "./tech/python.png";
 import nodejs from "./tech/nodejs.png";
 import docker from "./tech/docker.png";
 import reactjs from "./tech/reactjs.png";
@@ -42,6 +43,7 @@ export {
   logo,
   close,
   japan,
+  python,
   docker,
   github,
   nodejs,
