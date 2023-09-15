@@ -20,7 +20,6 @@ import {
   frontend,
   javascript,
   woodworker,
-  shellscript,
   photographer,
   fortytwologo,
 } from "../assets";
@@ -92,10 +91,6 @@ const technologies = [
     name: "CSS 3",
     icon: css,
   },
-  // {
-  //   name: "ShellScript",
-  //   icon: shellscript,
-  // },
   {
     name: "WordPress",
     icon: wp,
