@@ -409,6 +409,17 @@ const experiences = [
     ],
   },
   {
+    title: "Python for Data Science",
+    language: "Languages/Tools: Python",
+    icon: python,
+    iconBg: "#E6DEDD",
+    date: "August 2023",
+    points: [
+      "Learned about the basic structure of Python.",
+      "Image manipulation, transformation, datatables and statistics.",
+    ],
+  },
+  {
     title: "inception",
     language: "Languages/Tools: Docker",
     icon: fortytwologo,

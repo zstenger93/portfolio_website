@@ -42,8 +42,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I have experience with C, C++, Git, WordPress, Docker, CSS, HTML, ShellScript and MarkDown.
-        Experimenting with JavaScript, React, Three JS and Tailwindcss.
+        I have experience with C, C++, Python, Postgres, SQL, pgAdmin, Git, Docker, WordPress, CSS, HTML, ShellScript and MarkDown.<br />
+        Also experimenting with JavaScript, React, Three JS and Tailwindcss to create this portfolio.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
