@@ -146,6 +146,16 @@ const experiences = [
     ],
   },
   {
+    title: "National Cabinetmaker Competition",
+    language: "skill: Team and Precise work",
+    icon: hungary,
+    iconBg: "#E6DEDD",
+    date: "Spring 2012",
+    points: [
+      "During this competition we had to build a small custom window, and a two step chair with backrest. At the end we took home the 3rd place.",
+    ],
+  },
+  {
     title: "Second profession",
     language: "skill: Buildingcarpenter",
     icon: hungary,
