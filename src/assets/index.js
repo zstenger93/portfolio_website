@@ -25,6 +25,7 @@ import javascript from "./tech/javascript.png";
 
 import japan from "./company/japan.png";
 import hungary from "./company/hungary.png";
+import porsche from "./company/porsche.png";
 import germany from "./company/germany.png";
 import woodworker from "./company/woodworker.png";
 import fortytwologo from "./company/fortytwologo.png";
@@ -48,6 +49,7 @@ export {
   github,
   nodejs,
   hungary,
+  porsche,
   germany,
   creator,
   backend,

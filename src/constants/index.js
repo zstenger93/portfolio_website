@@ -11,6 +11,7 @@ import {
   nodejs,
   docker,
   threejs,
+  porsche,
   hungary,
   germany,
   backend,
@@ -427,6 +428,18 @@ const experiences = [
     points: [
       "Learned about the basic structure of Python.",
       "Image manipulation, transformation, datatables and statistics.",
+    ],
+  },
+  {
+    title: "Porsche Hackathon",
+    language: "Languages/Tools: Parquet, Python, SQL, Postgres",
+    icon: porsche,
+    iconBg: "#E6DEDD",
+    date: "September 2023",
+    points: [
+      "Worked with a large, real dataset which was over one billion lines collected from the Taycan models druing different campaigns.",
+      "It was a challange to manage the type of dataset whcih we haven't used before and also to understand the correalations between the different segments of the data.",
+      "Wasn't easy to extract useful information from the dataset, but we managed to do so quit well at the end.",
     ],
   },
   {
