@@ -440,7 +440,8 @@ const experiences = [
       "Worked with a large, real dataset which was over one billion lines collected from the Taycan models druing different campaigns.",
       "None of the team members had previus experience with data science beforehand. We prepared ourselfs in the 2 weeks prior the challange when we recieved the topics.",
       "It was a challanging task to manage the type of dataset whcih we haven't used before and also to understand the correalations between the different segments of the data.",
-      "Wasn't easy to extract useful information from the dataset, but we managed to do so quiet well at the end.",
+      "Wasn't easy to extract useful information from the dataset, but we managed to do so quiet well.",
+      "At the end we found quite a few correalations what we visualized with different graphs and presented to the topic owners.",
     ],
   },
   {
