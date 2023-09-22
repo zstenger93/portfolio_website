@@ -432,7 +432,7 @@ const experiences = [
   },
   {
     title: "Porsche Hackathon",
-    language: "Languages/Tools: Parquet, Python, SQL, Postgres",
+    language: "Languages/Tools: ML, Parquet, Python, SQL, Postgres",
     icon: porsche,
     iconBg: "#E6DEDD",
     date: "September 2023",
