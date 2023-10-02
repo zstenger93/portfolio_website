@@ -446,13 +446,13 @@ const experiences = [
   },
   {
     title: "inception",
-    language: "Languages/Tools: Docker",
+    language: "Languages/Tools: Docker, docker-compose",
     icon: fortytwologo,
     iconBg: "#E6DEDD",
-    date: "In progress",
+    date: "September 2023",
     points: [
-      "This project introduced me how docker and docker containers work.",
-      "How to deploy faster, easier different services and systems with docker.",
+      "This project introduced me how docker containers, docker-compose and docker in general works.",
+      "How to deploy faster, easier different services and systems with docker and combine them with docker-compose.",
     ],
   },
   {
