@@ -24,8 +24,9 @@ import tailwind from "./tech/tailwind.png";
 import javascript from "./tech/javascript.png";
 
 import japan from "./company/japan.png";
-import hungary from "./company/hungary.png";
+import audi from "./company/audi.png";
 import porsche from "./company/porsche.png";
+import hungary from "./company/hungary.png";
 import germany from "./company/germany.png";
 import woodworker from "./company/woodworker.png";
 import fortytwologo from "./company/fortytwologo.png";
@@ -39,6 +40,7 @@ export {
   web,
   css,
   git,
+  audi,
   menu,
   html,
   logo,
