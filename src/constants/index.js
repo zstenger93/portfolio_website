@@ -141,6 +141,21 @@ const experiences = [
     ],
   },
   {
+    title: "Scop",
+    language: "Languages/Tools: C++, OpenGL, ImgUi, GLFW",
+    icon: audi,
+    iconBg: "#E6DEDD",
+    date: "October 2023",
+    points: [
+      "3D rendering program for .obj & .mtl files.",
+      "Different polygon modes eg: wireframe, points, filled.",
+      "Rotating the object in any direction.",
+      "Usage of vertex and fragment shaders.",
+      "Basic lighting calculations.",
+      "Text rendering with imgui.",
+    ],
+  },
+  {
     title: "Porsche Hackathon",
     language: "Languages/Tools: ML, Parquet, Python, SQL, Postgres",
     icon: porsche,
