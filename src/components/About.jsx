@@ -42,8 +42,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I have experience with C, C++, Python, OpenGL, Postgres, SQL, pgAdmin, Git, Docker, WordPress, CSS, HTML, ShellScript and MarkDown.<br />
-        Also experimenting with JavaScript, React, Three JS and Tailwindcss to create this portfolio.
+        I have a passion for learning new skills and technologies. In 2022 I embarked on a new journey to become a software developer at 42 Heilbronn.
+        Right now I am working on the last project of thecore curriculum and ready to continue my way with a junior/intern position in the programming field.
+        So far I worked mainly with C++, C, Python, SQL, and Postgres. Also gained knowledge of React, JavaScript, HTML, and CSS while Doing this and other websites/porfolios.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
