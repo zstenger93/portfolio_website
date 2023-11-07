@@ -42,12 +42,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-center mx-auto'
       >
-        I have a passion for learning new skills and technologies. In 2022 I embarked on a new journey to become a software developer at 42 Heilbronn.
-        Right now I am working on the last project of thecore curriculum and ready to continue my way with a junior/intern position in the programming field.
-        So far I worked mainly with C++, C, Python, SQL, and Postgres. Also gained knowledge of React, JavaScript, HTML, and CSS while Doing this and other websites/porfolios.
+        I have a passion for learning new skills and technologies.<br/>In 2022 I embarked on a new journey to become a software developer at 42 Heilbronn.<br/>
+        Right now I am working on the last project of the core curriculum and ready to continue my journey with a junior/intern position in the programming field.<br/>
+        So far in my projects I worked mainly with<br/>C++, C, Python, SQL, and Postgres.<br/>While creating this and other websites/portfolios I also gained knowledge of<br/>React, JavaScript, ThreeJS, Tailwindcss, HTML, and CSS.
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 flex flex-wrap gap-10 mx-auto'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service}
           />
