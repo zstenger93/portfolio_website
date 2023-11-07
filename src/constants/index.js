@@ -7,6 +7,7 @@ import {
   git,
   audi,
   html,
+  plane,
   japan,
   python,
   nodejs,

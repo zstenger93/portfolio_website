@@ -5,6 +5,7 @@ import { styles } from '../styles';
 import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
+import { plane } from '../assets';
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -47,11 +48,8 @@ const About = () => {
         So far in my projects I worked mainly with<br/>C++, C, Python, SQL, and Postgres.<br/>While creating this and other websites/portfolios I also gained knowledge of<br/>React, JavaScript, ThreeJS, Tailwindcss, HTML, and CSS.
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10 mx-auto'>
-        {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service}
-          />
-        ))}
+      <div className='mt-20 text-center'>
+        <img src={plane} alt='Plane' className='mx-auto' />  
       </div>
     </>
   )

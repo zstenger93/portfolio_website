@@ -6,6 +6,7 @@ import github from "./github.png";
 import web from "./company/web.png";
 import creator from "./company/dev.png";
 import backend from "./company/backend.png";
+import plane from "./plane.png";
 import frontend from "./company/frontend.png";
 
 import c from "./tech/c.png";
@@ -44,6 +45,7 @@ export {
   menu,
   html,
   logo,
+  plane,
   close,
   japan,
   python,
