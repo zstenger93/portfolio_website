@@ -7,7 +7,7 @@ import {
   git,
   audi,
   html,
-  plane,
+  opengl,
   japan,
   python,
   nodejs,
@@ -144,7 +144,7 @@ const experiences = [
   {
     title: "Scop",
     language: "Languages/Tools: C++, OpenGL, ImgUi, GLFW",
-    icon: audi,
+    icon: opengl,
     iconBg: "#E6DEDD",
     date: "October 2023",
     points: [

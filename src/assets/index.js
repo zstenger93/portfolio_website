@@ -15,6 +15,7 @@ import cpp from "./tech/c++.png";
 import git from "./tech/git.png";
 import css from "./tech/css.png";
 import html from "./tech/html.png";
+import opengl from "./tech/opengl.png";
 import python from "./tech/python.png";
 import nodejs from "./tech/nodejs.png";
 import docker from "./tech/docker.png";
@@ -48,6 +49,7 @@ export {
   plane,
   close,
   japan,
+  opengl,
   python,
   docker,
   github,
