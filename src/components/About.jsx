@@ -34,13 +34,13 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview</h2>
+        <p className={`${styles.sectionSubText} text-center`}>Overview</p>
+        <h2 className={`${styles.sectionHeadText} text-center`}>Introduction</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-center mx-auto'
       >
         I have a passion for learning new skills and technologies. In 2022 I embarked on a new journey to become a software developer at 42 Heilbronn.
         Right now I am working on the last project of thecore curriculum and ready to continue my way with a junior/intern position in the programming field.
