@@ -23,6 +23,7 @@ import reactjs from "./tech/reactjs.png";
 import threejs from "./tech/threejs.svg";
 import shellscript from "./tech/bash.png";
 import tailwind from "./tech/tailwind.png";
+import astronaut from "./tech/astronaut2.png";
 import javascript from "./tech/javascript.png";
 
 import japan from "./company/japan.png";
@@ -63,6 +64,7 @@ export {
   threejs,
   frontend,
   tailwind,
+  astronaut,
   woodworker,
   javascript,
   shellscript,

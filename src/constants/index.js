@@ -21,6 +21,7 @@ import {
   creator,
   tailwind,
   frontend,
+  astronaut,
   javascript,
   woodworker,
   photographer,
@@ -125,6 +126,22 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Leanspace Space Hackathon",
+    language: "Languages/Tools: TypeScirpt, JavaScript, React",
+    icon: astronaut,
+    iconBg: "#E6DEDD",
+    date: "November 2023",
+    points: [
+      "Built a satellite control application on top of LeanSpace API to successfully capture images of earth at requested locations.",
+      "Propagated satellite and ground station data for the calculations necessary to capture images.",
+      "Implemented a user interface to request images of earth at a given location and display important data about the satellites.",
+      "After checking the avaialable ground stations and the status of the satellites we create the command to capture the image.",
+      "The command is placed in a command sequence and when the pass is happening to the enqueue and popped to the satellite.",
+      "The satellite executes the command and with accessing the metric data we can check if the image was captured successfully and request the imageID.",
+      "With the imageID we can access the telemetry data and download the image.",
+    ],
+  },
   {
     title: "Audi RealLabor Kreathon",
     language: "Languages/Tools: C++, C#",
