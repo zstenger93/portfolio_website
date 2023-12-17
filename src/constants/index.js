@@ -127,6 +127,21 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Transcendence",
+    language: "Languages/Tools: Django, JavaScript, ReactJS, Nginx, Docker, PostgreSQL, TailwindCSS",
+    icon: fortytwologo,
+    iconBg: "#E6DEDD",
+    date: "December 2023 - March 2024",
+    points: [
+      "The last project of the core curriculum at 42 Heilbronn, a full stack web application.",
+      "Backend/API is written in Django, with a PostgreSQL database.",
+      "Frontend is written in ReactJS with TailwindCSS.",
+      "It's connected to a Nginx server and deployed with Docker.",
+      "Authentication is handled with JWT tokens.",
+      "It has different variations of the original PONG game (AI/Single/Multiplayer/Tournament), and a chat system.",
+    ],
+  },
+  {
     title: "Leanspace Space Hackathon",
     language: "Languages/Tools: TypeScirpt, JavaScript, React",
     icon: astronaut,
