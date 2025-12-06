@@ -25,6 +25,8 @@ import shellscript from "./tech/bash.png";
 import tailwind from "./tech/tailwind.png";
 import astronaut from "./tech/astronaut2.png";
 import javascript from "./tech/javascript.png";
+import vulkan from "./tech/vulkan.png";
+import im from "./tech/im.png";
 
 import japan from "./company/japan.png";
 import audi from "./company/audi.png";
@@ -34,11 +36,14 @@ import germany from "./company/germany.png";
 import woodworker from "./company/woodworker.png";
 import fortytwologo from "./company/fortytwologo.png";
 import photographer from "./company/photographer.png";
+import sit from "./company/sit.png";
 
 
 export {
   c,
+  im,
   wp,
+  sit,
   cpp,
   web,
   css,
@@ -55,6 +60,7 @@ export {
   docker,
   github,
   nodejs,
+  vulkan,
   hungary,
   porsche,
   germany,

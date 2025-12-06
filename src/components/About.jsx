@@ -43,9 +43,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-center mx-auto'
       >
-        I have a passion for learning new skills and technologies.<br/>In 2022 I embarked on a new journey to become a software developer at 42 Heilbronn.<br/>
-        Right now I am working on the last project of the core curriculum and ready to continue my journey with a junior/intern position in the programming field.<br/>
-        So far in my projects I worked mainly with<br/>C++, C, Python, SQL, and Postgres.<br/>While creating this and other websites/portfolios I also gained knowledge of<br/>React, JavaScript, ThreeJS, Tailwindcss, HTML, and CSS.
+        I have a passion for learning new skills and technologies.<br/>In 2022 I embarked on a new journey to become a Software Developer at 42 Heilbronn.<br/>
+        Currently I am working on mastery projects at 42 while I work full time at Schwarz IT<br/>
+        So far in my projects I worked mainly with<br/>C, C++, Python, JavaScript, NextJS, MongoDB, OpenGL, SQL, Postgres, TailwindCSS, ThreeJS, CSS, and HTML.
       </motion.p>
 
       <div className='mt-20 text-center'>

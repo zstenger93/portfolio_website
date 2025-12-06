@@ -68,8 +68,8 @@ const Hero = () => {
           <h1 data-value="Hi, I'm Zsolt" className={`${styles.heroHeadText} text-white hero-text`}>
             Hi, I'm <span className='text-[#915eff]'>Zsolt</span>
           </h1>
-          <p data-value={`A Software Development\\nstudent at 42 Heilbronn`} className={`${styles.heroSubText} mt-2 text-white-100 hero-subtext`}>
-            A Software Development\nstudent at 42 Heilbronn
+          <p data-value={`Software Developer, Cabinetmaker, Buildingcarpenter, Photographer`} className={`${styles.heroSubText} mt-2 text-white-100 hero-subtext`}>
+          Software Developer, Cabinetmaker, Buildingcarpenter, Photographer
           </p>
         </div>
       </div>

@@ -1,6 +1,8 @@
 import {
   c,
+  im,
   wp,
+  sit,
   cpp,
   web,
   css,
@@ -12,6 +14,7 @@ import {
   python,
   nodejs,
   docker,
+  vulkan,
   threejs,
   porsche,
   hungary,
@@ -127,6 +130,94 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Short Break",
+    icon: im,
+    iconBg: "#E6DEDD",
+    date: "May 2025 - October 2025",
+    points: [
+      "Completed 1 half, 2 full marathons and a half ironman during this period.",
+      "More to follow. Soon™",
+    ],
+  },
+  {
+    title: "🏴‍☠️Hypertube🏴‍☠️",
+    language: "Languages/Tools: JavaScript, Nginx",
+    icon: fortytwologo,
+    iconBg: "#E6DEDD",
+    date: "August 2025",
+    points: [
+      "Creating a torrent site with authentication, video search & streaming subtitles, profiles, etc.",
+      "Of course only for educational purposes.🏴‍☠️",
+    ],
+  },
+  {
+    title: "Game Engine Development",
+    language: "Languages/Tools: Vulkan, C++, SDL, ImGui, Assimp",
+    icon: vulkan,
+    iconBg: "#E6DEDD",
+    date: "December 2024 - Present",
+    points: [
+      "Developing a custom game engine in my free time with multi platform support for MacOS and Windows.",
+      "Soon™",
+    ],
+  },
+  {
+    title: "Developer at Schwarz IT",
+    language: "Languages/Tools: Cognigy, MongoDB, NextJS, Grafana",
+    icon: sit,
+    iconBg: "#E6DEDD",
+    date: "December 2024 - June 2025",
+    points: [
+      "Developing an API to serve as a bridge between MongoDB and Grafana to serve the latter with pre-formatted data.",
+      "Working with and developing various dashboards for internal, international teams as well as the business departments of Lidl and Kafland, concerning chat and voice agents.",
+      "Maintaining the created dashboards and endpoints.",
+    ],
+  },
+  {
+    title: "Internship at Schwarz IT",
+    language: "Languages/Tools: Cognigy, MongoDB, NextJS, Grafana, Monitoring, Logging",
+    icon: sit,
+    iconBg: "#E6DEDD",
+    date: "June 2024 - November 2024",
+    points: [
+      "Got familiar with conversational AI.",
+      "Visualizing the data on MongoDB from the chat and voice agents for a better understanding of their performance on Grafana.",
+      "Sorting and visualizing logs and creating/setting up alerts for the errors to be able to track the problems down eadier and faster.",
+      "Writing monitoring scripts.",
+    ],
+  },
+  {
+    title: "Red Tetris",
+    language: "Languages/Tools: JavaScript",
+    icon: fortytwologo,
+    iconBg: "#E6DEDD",
+    date: "August 2024",
+    points: [
+      "A multiplayer Tetris game, of which had to be covered with unit tests for both the server and the client.",
+    ],
+  },
+  {
+    title: "HumanGL",
+    language: "Languages/Tools: C++, OpenGL, ImgUi, GLFW",
+    icon: opengl,
+    iconBg: "#E6DEDD",
+    date: "June 2024",
+    points: [
+      "Implemented our own matrix stack and matrix transformations for a 3D model in order to make various skeletal animations.",
+    ],
+  },
+  {
+    title: "ls",
+    language: "Languages/Tools: C",
+    icon: fortytwologo,
+    iconBg: "#E6DEDD",
+    date: "April 2024",
+    points: [
+      "If you have used a shell before, you are more than familiar with one of the most used command: ls.",
+      "In this project I have recoded ls with a wide range of options to get to know better how is it interacting with the file system.",
+    ],
+  },
+  {
     title: "Transcendence",
     language: "Languages/Tools: Django, JavaScript, ReactJS, Nginx, Docker, PostgreSQL, TailwindCSS",
     icon: fortytwologo,
@@ -136,9 +227,10 @@ const experiences = [
       "The last project of the core curriculum at 42 Heilbronn, a full stack web application.",
       "Backend/API is written in Django, with a PostgreSQL database.",
       "Frontend is written in ReactJS with TailwindCSS.",
-      "It's connected to a Nginx server and deployed with Docker.",
-      "Authentication is handled with JWT tokens.",
-      "It has different variations of the original PONG game (AI/Single/Multiplayer/Tournament), and a chat system.",
+      "Connected through Nginx proxy and deployed with Docker.",
+      "Authentication/2FA is handled with JWT tokens.",
+      "It has different variations of the original PONG game (AI/Single/Multiplayer/Tournament),",
+      "Chat functionality, user profiles, friend lists.",
     ],
   },
   {
