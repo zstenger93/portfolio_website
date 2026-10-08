@@ -1,2 +1,2 @@
 # Welcome to my Portfolio
-- [zsoltstenger.tech](https://www.zsoltstenger.tech)
+- [zsoltstenger.tech](https://zstenger93.github.io/)
