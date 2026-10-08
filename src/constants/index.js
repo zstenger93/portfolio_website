@@ -130,12 +130,13 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Short Break",
+    title: "Personal Projects",
     icon: im,
     iconBg: "#E6DEDD",
-    date: "May 2025 - October 2025",
+    date: "May 2025 - August 2026",
     points: [
-      "Completed 1 half, 2 full marathons and a half ironman during this period.",
+      "Finished an Ironman, 2 Ironman 70.3 & 1 Olympic distance triathlon, 3 half & 3 full marathons, and 4 other endurance events during this period.",
+      "German B1 course",
       "More to follow. Soon™",
     ],
   },
