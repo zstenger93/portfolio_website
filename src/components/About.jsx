@@ -35,7 +35,6 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}>Overview</p>
         <h2 className={`${styles.sectionHeadText} text-center`}>Introduction</h2>
       </motion.div>
 
@@ -47,11 +46,11 @@ const About = () => {
         Worked at Schwarz IT as a Developer between June 2024 and May 2025, where I have gained experience in various technologies and programming languages.<br />
         Currently I learn German and compete in Triathlons and other endurance races while also working on mastery projects at 42.<br/>
         So far in my projects & job I worked mainly with<br />
-        Languages: C, C++, Python, TypeScript, JavaScript, Lua, SQL<br />
-        Web/Frameworks: Vue/Next/Node/Three.js, TailwindCSS, CSS, HTML<br />
-        Databases: SQL, MongoDB, PostgreSQL<br />
-        Graphics & Game Development: Vulkan, OpenGL<br />
-        Tools & Platforms: Git, Kubernetes, Grafana, Docker, Bash, Nginx, Doxygen, CAD/CAM, WordPress
+        <strong><em>Languages:</em></strong> C, C++, Python, TypeScript, JavaScript, Lua, SQL<br />
+        <strong><em>Web/Frameworks:</em></strong> React, Vue.js, Next.js, Node.js Three.js, TailwindCSS, CSS, HTML<br />
+        <strong><em>Databases:</em></strong> SQL, MongoDB, PostgreSQL<br />
+        <strong><em>Graphics &amp; Game Development:</em></strong> Vulkan, OpenGL<br />
+        <strong><em>Tools &amp; Platforms:</em></strong> Git, Kubernetes, Grafana, Docker, Bash, Nginx, Doxygen, CAD/CAM, WordPress
       </motion.p>
 
       <div className='mt-20 text-center'>

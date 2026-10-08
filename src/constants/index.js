@@ -135,7 +135,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "May 2025 - August 2026",
     points: [
-      "Finished an Ironman, 2 Ironman 70.3 & 1 Olympic distance triathlon, 3 half & 3 full marathons, and 4 other endurance events during this period.",
+      "Finished an Ironman, 2 Ironman 70.3 & 1 Olympic distance triathlon, 3 half & 3 full marathons, and 4 other endurance races during this period.",
       "German B1 course",
       "More to follow. Soon™",
     ],
