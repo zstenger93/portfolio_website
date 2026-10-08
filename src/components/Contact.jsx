@@ -7,6 +7,11 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+const recipientEmail = import.meta.env.VITE_CONTACT_TO_EMAIL;
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -29,20 +34,28 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    if (!serviceId || !templateId || !publicKey) {
+      alert(
+        "The contact form is not configured yet. Add your EmailJS credentials in the environment variables and reconnect the Gmail account if needed."
+      );
+      return;
+    }
+
     setLoading(true);
 
     emailjs
       .send(
-        'service_rhjx00r',
-        'template_66q49ea',
+        serviceId,
+        templateId,
         {
           from_name: form.name,
           to_name: "Zsolt",
           from_email: form.email,
-          to_email: "zsozo93@gmail.com",
+          to_email: recipientEmail,
           message: form.message,
         },
-        'yNT3q4e3aHqCP4sQ3'
+        publicKey
       )
       .then(
         () => {
@@ -59,7 +72,12 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Ahh, something went wrong. Please try again.");
+          const errorMessage =
+            error?.text === "Gmail_API: Invalid grant. Please reconnect your Gmail account"
+              ? "The Gmail account linked to this form has expired or been disconnected. Please reconnect it in the EmailJS dashboard and try again."
+              : "Ahh, something went wrong. Please try again.";
+
+          alert(errorMessage);
         }
       );
   };
@@ -87,7 +105,7 @@ const Contact = () => {
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder="What's your name?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -109,7 +127,7 @@ const Contact = () => {
               name='message'
               value={form.message}
               onChange={handleChange}
-              placeholder='What you want to say?'
+              placeholder='What do you want to talk about?'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
